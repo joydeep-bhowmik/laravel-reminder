@@ -1,0 +1,42 @@
+{
+    "name": "joydeep-bhowmik/laravel-reminder",
+    "description": "A Laravel reminder library",
+    "type": "library",
+    "version": "v1.0.0",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "laravel reminder libary",
+        "reminder"
+    ],
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JoydeepBhowmik\\LaravelReminder\\": "src/",
+            "JoydeepBhowmik\\LaravelReminder\\Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "joydeep-bhowmik",
+            "email": "bhowmikj9432@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JoydeepBhowmik\\LaravelReminder\\Providers\\LaravelReminderServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
